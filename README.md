@@ -1,8 +1,15 @@
-# React + Vite
+This project is a basic web application that provides authentication functionality using React, React Router, and Appwrite. The app allows users to register, log in, and access protected routes only if they are authenticated. It includes pages for Home, Login, Signup, and Profile, with routing and private route protection implemented.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features
+User authentication (Login/Signup)
+Protected routes
+User profile management
+Basic navigation and routing
+State management using context API
+Technologies Used
+Frontend
+React: A JavaScript library for building user interfaces.
+React Router: A library for handling routing in React applications.
+CSS: Styling the application.
+Backend
+Appwrite: An open-source backend server that provides authentication, database, and other backend services.
