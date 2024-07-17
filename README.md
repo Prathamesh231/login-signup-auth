@@ -20,8 +20,8 @@ CSS: Styling the application.
 Backend
 Appwrite: An open-source backend server that provides authentication, database, and other backend services.
 
-"Components"
 
+Components
 
 Header.jsx
 This component displays the navigation bar with links to Home, Profile, Login, and Signup pages. It conditionally renders links based on the user's authentication status.
