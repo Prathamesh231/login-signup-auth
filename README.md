@@ -19,3 +19,27 @@ CSS: Styling the application.
 
 Backend
 Appwrite: An open-source backend server that provides authentication, database, and other backend services.
+
+"Components"
+
+
+Header.jsx
+This component displays the navigation bar with links to Home, Profile, Login, and Signup pages. It conditionally renders links based on the user's authentication status.
+
+Home.jsx
+This component is the landing page for the application, displaying a welcome message.
+
+Login.jsx
+This component handles user login functionality. It uses the useAuth context to authenticate users and navigate them to the home page upon successful login.
+
+Signup.jsx
+This component handles user registration. It allows users to sign up by providing their name, email, and password. It also uses the useAuth context to register users and navigate them to the home page upon successful registration.
+
+Profile.jsx
+This component displays the user's profile information. It is a protected route that only authenticated users can access.
+
+AuthContext.jsx
+This file contains the authentication context for managing user authentication state throughout the application. It provides functions for logging in, logging out, and registering users.
+
+PrivateRoutes.jsx
+This component handles private routing, ensuring that only authenticated users can access certain routes.
